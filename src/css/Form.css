@@ -1,0 +1,46 @@
+input {
+    padding: 10px 10px;
+    border: none;
+    border-radius: 10px;
+    width: 40%;
+    color: black;
+    text-align: center;
+    height: 30px;
+    outline: none;
+}
+input::placeholder {
+    color: rgba(245,245,245, .3);
+    text-align: left;
+}
+form{
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    padding: 10px;
+    border-radius: 5px;
+    position: relative;
+    height: 60px;
+}
+input, .submit{
+    background-color: rgba(80,80,80,0.4);
+    border: 1px solid #fff;
+}
+.submit{
+    line-height: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 150px;
+    height: 30px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.submit:hover{
+    background-color:rgba(80,80,80,0.6);
+}
+.error-msg{
+    color: rgb(240, 18, 18);
+    position: absolute;
+    top: 42px;
+    right: 520px;
+}

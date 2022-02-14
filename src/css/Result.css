@@ -1,0 +1,86 @@
+.body_wrapper{
+    margin-top: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding: 20px 10px;
+    flex-direction: column;
+    width: 1000px;
+    height: 300px;
+    background-color: rgba(80,80,80,0.4);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    
+}
+.city{
+    width: 100%;
+    text-align: center;
+    font-size: 24px;
+}
+.output{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content:center;
+    width: 100%;
+
+}
+ .output-center, .output-bottom{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.output-center{
+    justify-content: center;
+}
+.output-bottom{
+    justify-content: space-around;
+}
+
+.output-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    padding: 10px 10px;
+    flex-direction: row;
+}
+.Date{
+    width: 50%;
+    justify-content: flex-start;
+}
+.Date h3{
+    font-size: 15px;
+}
+.Date p{
+    font-size: 70px;
+    font-weight: bold;
+}
+.decription, .temp{
+    width: 25%;
+}
+.temp h3{
+    font-size: 50px;
+}
+.temp p{
+    color: rgba(245,245,245, .3);
+    font-size: 40px;
+}
+
+.pressure, .humidity, .pressure, .wind, .temp, .decription, .Date{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+  .pressure, .wind, .humidity, .pressure, .wind {
+    margin-top: 20px;
+}
+.description h3,.description p, .temp h3, .Date h3, .humidity h3, .pressure h3, .wind h3, .humidity p, .pressure p, .wind p{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+.humidity p, .pressure p, .wind p{
+    margin-top: 5px;
+}
