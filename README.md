@@ -1,10 +1,12 @@
-# Getting Started with Create React App
+# Description
+This is the simple weather app
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-# About
-This app fetch data from url and gives weather result. You type the city name and click the button. 
-
+# Technologies
+React
+React Hooks
+JS
+Styled Components
+CSS3
 
 # Go and see live
 https://adamkosior090.github.io/The-weather-app-REACT/
