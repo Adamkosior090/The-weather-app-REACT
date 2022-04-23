@@ -9,4 +9,4 @@ This is the simple weather app
 * CSS3
 
 # Go and see live
-https://adamkosior090.github.io/The-weather-app-REACT/
+[Start](https://ejdam090.github.io/The-weather-app-REACT/)
