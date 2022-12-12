@@ -57,10 +57,10 @@ const Result = (props) => {
   const curentTime = () => {
     const d = new Date();
     let tim = ``;
-    if(d.getMinutes()< 10){
-       tim = `${d.getHours()}:0${d.getMinutes()}`;
-    }else{
-       tim = `${d.getHours()}:${d.getMinutes()}`;
+    if (d.getMinutes() < 10) {
+      tim = `${d.getHours()}:0${d.getMinutes()}`;
+    } else {
+      tim = `${d.getHours()}:${d.getMinutes()}`;
     }
     return tim;
   };
@@ -73,39 +73,33 @@ const Result = (props) => {
 
   content = (
     <>
-      <div className="city">
-        <p>
+      <div className="center-info">
+        <p className="city_name">
           {capitalizeFirstLetter(city)}, <Countries countID={country} />
         </p>
+        <h3 className="date_name">{newDate()}</h3>
+        <p className="date_time">{curentTime()}</p>
       </div>
-      <div className="output">
-        <div className="output-center">
-        <div className="Date">
-            <h3>{newDate()}</h3>
-            <p>{curentTime()}</p>
-          </div>
-          <div className="description">
-            <Icon iconID={icon} />
-            <p>{capitalizeFirstLetter(description)} </p>
-          </div>
-          <div className="temp">
-            <h3>{temp} °C</h3>
-            <p>{feelsLike} °C</p>
-          </div>         
-        </div> 
-        <div className="output-bottom">
-          <div className="humidity">
-            <h3>Wilgotność</h3>
-            <p>{humidity} %</p>
-          </div>
-          <div className="pressure">
-            <h3>Ciśnienie</h3>
-            <p>{pressure} hPa</p>
-          </div>
-          <div className="wind">
-            <h3>Wiatr</h3>
-            <p>{wind} m/s</p>
-          </div>
+      <div className="boxes">
+        <div className="description">
+          <Icon iconID={icon} />
+          <p>{capitalizeFirstLetter(description)} </p>
+        </div>
+        <div className="temp">
+          <h3>{temp} °C</h3>
+          <p>{feelsLike} °C</p>
+        </div>
+        <div className="humidity">
+          <h3>Wilgotność</h3>
+          <p>{humidity} %</p>
+        </div>
+        <div className="pressure">
+          <h3>Ciśnienie</h3>
+          <p>{pressure} hPa</p>
+        </div>
+        <div className="wind">
+          <h3>Wiatr</h3>
+          <p>{wind} m/s</p>
         </div>
       </div>
     </>

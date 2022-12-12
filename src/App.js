@@ -34,7 +34,7 @@ const App = () => {
   ///fetchData(city)
   const fetchData = (e) => {
     //API Key
-    const APIkey = "unique";
+    const APIkey = "d3fa2a81788f8a5131389ef69db84bb7";
     const API = `https://api.openweathermap.org/data/2.5/weather?q=${e}&appid=${APIkey}&units=metric&lang=pl`;
     fetch(API)
       .then((resp) => {

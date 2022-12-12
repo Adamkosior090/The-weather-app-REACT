@@ -23,7 +23,7 @@ form{
 }
 input, .submit{
     background-color: rgba(80,80,80,0.4);
-    border: 1px solid #fff;
+    color: #fff;
 }
 .submit{
     line-height: 10px;
