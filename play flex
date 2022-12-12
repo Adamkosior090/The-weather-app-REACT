@@ -1,0 +1,29 @@
+[33mcommit 2d7c4e8bd9afe4240b51ba1e159e3799037c31d2[m[33m ([m[1;36mHEAD -> [m[1;32mchanges[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/changes[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m, [m[1;32mlist[m[33m)[m
+Author: Adam <44313415+Ejdam090@users.noreply.github.com>
+Date:   Sat Apr 23 14:14:36 2022 +0200
+
+    Update README.md
+
+[33mcommit ce6167f4cf8579783e56c1b8167bb9b915af9313[m
+Author: Adam <44313415+Adamkosior090@users.noreply.github.com>
+Date:   Mon Feb 14 23:08:52 2022 +0100
+
+    Update README.md
+
+[33mcommit 6429eb8c61ac19456dc730b13464dcf015784641[m
+Author: Adamkosior090 <44313415+Adamkosior090@users.noreply.github.com>
+Date:   Mon Feb 14 22:54:01 2022 +0100
+
+    delete my privete api key
+
+[33mcommit 95381f4f368c0e2621c971f9b25edbaa4cfdf26b[m
+Author: AdamKosior <a.kosior090@wp.pl>
+Date:   Mon Feb 14 22:45:00 2022 +0100
+
+    ok
+
+[33mcommit 3fe7dc8c7e234d91097219571771eb39d1e22939[m
+Author: AdamKosior <a.kosior090@wp.pl>
+Date:   Sat Jan 29 10:53:02 2022 +0100
+
+    Initialize project using Create React App
