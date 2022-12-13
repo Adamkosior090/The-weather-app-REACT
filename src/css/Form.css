@@ -4,7 +4,7 @@ input {
     border-radius: 10px;
     width: 40%;
     color: black;
-    text-align: center;
+    text-align: left;
     height: 30px;
     outline: none;
 }
@@ -33,6 +33,7 @@ input, .submit{
     height: 30px;
     margin-left: 20px;
     cursor: pointer;
+    border: none;
     transition: background-color 0.3s;
 }
 .submit:hover{
