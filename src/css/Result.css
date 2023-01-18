@@ -38,7 +38,7 @@
     font-size: 1.2rem;
 }
 
-.pressure,.description, .humidity, .pressure, .wind, .temp, .decription, .Date{
+.pressure,.description, .humidity, .pressure, .wind, .temp,  .Date{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -63,9 +63,20 @@
 .humidity p, .pressure p, .wind p{
     margin-top: 5px;
 }
-@media  (max-width: 1099px) {
+@media  (max-width: 1023px) {
    
     .date_name, .date_time, .city_name{
         font-size: 1.8rem;
     }
+    .pressure,.description, .humidity, .pressure, .wind, .temp,  .Date{
+        width: 100px;
+        height: 100px;
+        margin: .6rem;
+    }
+    .description h3,.description p, .temp h3, .Date h3, .humidity h3, .pressure h3, .wind h3, .humidity p, .pressure p, .wind p{
+        font-size: .7rem;
+    }
+}
+@media  (max-width: 625px){
+
 }
