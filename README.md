@@ -9,4 +9,4 @@ This is the simple weather app
 * CSS3
 
 # Go and see live
-[Start](https://ejdam090.github.io/The-weather-app-REACT/)
+[Start](https://the-weather-app-ejdam090.netlify.app/)
