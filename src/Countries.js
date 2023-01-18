@@ -1,5 +1,3 @@
-import React from "react";
-
 const Countries = (props) => {
   const countryListPL = {
     AF: "Afganistan",
